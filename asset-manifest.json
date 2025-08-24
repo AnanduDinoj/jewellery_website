@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/jewellery-website/static/js/main.3d893118.js",
+    "main.js": "/jewellery-website/static/js/main.aa5cbb8f.js",
     "index.html": "/jewellery-website/index.html",
-    "main.3d893118.js.map": "/jewellery-website/static/js/main.3d893118.js.map"
+    "main.aa5cbb8f.js.map": "/jewellery-website/static/js/main.aa5cbb8f.js.map"
   },
   "entrypoints": [
-    "static/js/main.3d893118.js"
+    "static/js/main.aa5cbb8f.js"
   ]
 }
