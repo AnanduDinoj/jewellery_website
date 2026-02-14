@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-// Fake product data (replace images with your own)
+
 const products = {
   Necklaces: [
     { name: "Gold Necklace", image: "/images/necklace1.jpg" },

@@ -3,8 +3,9 @@ import styled from "styled-components";
 
 const HeroSection = styled.section`
   height: 80vh;
-  background: url("/images/hero.jpg") center/cover no-repeat;
+  background: url(${process.env.PUBLIC_URL}/images/hero.jpg) center/cover no-repeat;
   display: flex;
+  flex-direction: column; 
   align-items: center;
   justify-content: center;
   color: white;
@@ -15,7 +16,8 @@ const HeroSection = styled.section`
 
 const Hero = () => (
   <HeroSection>
-    Bold, Artistic, Unique
+  <h1>JEWEL WHIRL</h1>
+  <h3>Bold, Artistic, Unique</h3>
   </HeroSection>
 );
 

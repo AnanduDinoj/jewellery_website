@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { name: "Necklaces", image: "/images/necklace1.jpg" },
-  { name: "Earrings", image: "/images/earrings1.jpg" },
-  { name: "Bangles", image: "/images/bangle1.jpg" },
-  { name: "Scrunchies", image: "/images/scrunchie1.jpg" },
+   { name: "Necklaces", image: `${process.env.PUBLIC_URL}/images/necklace1.jpg` },
+  { name: "Earrings", image: `${process.env.PUBLIC_URL}/images/earrings1.jpg` },
+  { name: "Bangles", image: `${process.env.PUBLIC_URL}/images/bangle1.jpg` },
+  { name: "Scrunchies", image: `${process.env.PUBLIC_URL}/images/scrunchie1.jpg` },
 ];
 
 const CollectionsPage = () => {
